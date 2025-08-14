@@ -7,7 +7,7 @@ import playStoreImg from "../assets/images/Link.png";
 const Footer: React.FC = () => {
   return (
     <>
-      <footer className="bg-[#F9F9FB]">
+      <footer className="bg-[#F9F9FB] border-t border-gray-300">
         <div className="max-w-[1620px] mx-auto px-10">
           <div className="pt-10 pb-12 border-b border-[#EBEBEB]">
             <img src={logo} alt="Logo Image" />

@@ -18,7 +18,7 @@ const CategoryItem: React.FC<CategoryItemProps> = ({
   <div className="border border-[#D5D5D5] rounded-2xl h-[310px] flex items-center justify-center">
     <div className="space-y-6 flex flex-col items-center">
       <img src={icon} alt={`${title} Icon`} />
-      <div className="space-y-1">
+      <div className="space-y-1 text-center">
         <h3 className="text-[#CBA65F] text-xl font-semibold">{title}</h3>
         <p className="text-[#CBA65F]">{description}</p>
       </div>
